@@ -21,7 +21,7 @@ card12 = Card.create(filename: "card12.jpg")
 card13 = Card.create(filename: "card13.jpg")
 card14 = Card.create(filename: "card14.jpg")
 
-# rule1 = Rule.create(winner: card1, loser: card2, rule: "smiling makes everyone happy" )
-# rule2 = Rule.create(winner: card1, loser: card3, rule: "volancoes smell bad" )
-# rule3 = Rule.create(winner: card2, loser: card3, rule: "ring around the planet and around the volcano" )
+rule1 = Rule.create(winner: card1, loser: card2, rule: "smiling makes everyone happy" )
+rule2 = Rule.create(winner: card1, loser: card3, rule: "volancoes smell bad" )
+rule3 = Rule.create(winner: card2, loser: card3, rule: "ring around the planet and around the volcano" )
 
