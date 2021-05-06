@@ -2,13 +2,16 @@ class CardsController < ApplicationController
 
     def index
         cards = Card.all 
-        render json: cards   #, key_transform: :camel_lower
+        render json: cards
     end
 
     def update
         card = Card.find_by(id: params[:id])
-        card.update(card_params)
-        render json: card
+        if card.update(card_params)
+            render json: card
+        else 
+            render json: "Card Name Update Failed!"
+        end
     end
 
     private

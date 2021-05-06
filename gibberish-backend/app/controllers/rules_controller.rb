@@ -2,8 +2,11 @@ class RulesController < ApplicationController
 
     def create
         rule = Rule.new(rule_params)
-        rule.save
-        render json: rule
+        if rule.save
+            render json: rule
+        else
+            render json: "Create Rule Failed!"
+        end
     end
 
     private
