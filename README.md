@@ -5,16 +5,16 @@ The rules are arbitrary. The names of the cards are assigned by players as are t
 
 ## Summary
 
-  - [Ruby Version](#Version)
+  - [Ruby Version](#Ruby-Version)
   - [Installation](#Installation)
   - [Cards](#Cards)
-  - [Future Additions](#Future Additions)
+  - [Future Additions](#Future-Additions)
   - [Contributing](#contributing)
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-## Ruby Version
+## Ruby-Version
 
 This code was written in ruby-2.6.1 
 
@@ -47,7 +47,7 @@ Cards have been pre-created and stored in the gibberish-frontend/cards directory
 You can add more cards if you wish, then you'll need to create seed data for those cards to exist in the game.
 Cards should have a size ratio of: 3.5 height x 2.5 width
 
-## Future Additions
+## Future-Additions
 
 - A way to upload your own cards from the front end
 - Alternating turns (letting whoever won a trick play their card first)
