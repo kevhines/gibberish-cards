@@ -7,13 +7,14 @@ The rules are arbitrary. The names of the cards are assigned by players as are t
 
   - [Ruby Version](#Version)
   - [Installation](#Installation)
-  - [Validations](#Validations)
+  - [Cards](#Cards)
+  - [Future Additions](#Future Additions)
   - [Contributing](#contributing)
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-## Version
+## Ruby Version
 
 This code was written in ruby-2.6.1 
 
@@ -34,11 +35,11 @@ Add Seed Data (neccessary for the game to work):
 
     $rake db:seed
 
-Host the server:
+Host the API server:
 
     $ rails s
 
-Go to local web page: http://localhost:3000/
+Open gibberish-frontend/index.html in your browser
 
 ## Cards
 
